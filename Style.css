@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: #ff3c00;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.hero {
+  background: #ffdb99;
+  color: #000;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.pricing p {
+  font-size: 1.1rem;
+  margin: 0.3rem 0;
+}
+
+.order-form {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.order-form form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.order-form button {
+  background: #ff3c00;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
