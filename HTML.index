@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loopy Fries - Tornado Fries</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tornado Fries</h1>
+    <p>Home of the Original <strong>Loopy Fries</strong></p>
+  </header>
+
+  <section class="hero">
+    <h2>Try Our Crispy & Flavorful Loopy Fries</h2>
+    <p>Deliciously twisted. Available in Small and Large sizes.</p>
+    <a href="#order" class="btn">Order Now</a>
+  </section>
+
+  <section class="features">
+    <h2>Why You'll Love Loopy Fries</h2>
+    <ul>
+      <li>🔥 Super crispy</li>
+      <li>🍟 Packed with flavor</li>
+      <li>💸 Affordable and satisfying</li>
+    </ul>
+    <div class="pricing">
+      <p><strong>Small:</strong> Rs. 320</p>
+      <p><strong>Large:</strong> Rs. 390</p>
+    </div>
+  </section>
+
+  <section class="order-form" id="order">
+    <h2>Place Your Order</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="size">Choose Size:</label>
+      <select id="size" required>
+        <option value="">--Select--</option>
+        <option value="small">Small - Rs. 320</option>
+        <option value="large">Large - Rs. 390</option>
+      </select>
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" rows="3" required></textarea>
+
+      <button type="submit">Confirm Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tornado Fries. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
